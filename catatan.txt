@@ -1,0 +1,14 @@
+1. inisial project
+git init
+2. add keseluruhan project
+git add .
+3. commit perubahan
+git commit -m "fresh from oven"
+4. set branch dengan nama main
+git branch -M main
+5. bikin reponya
+curl -u 'bagaskarapd' https://api.github.com/user/repos -d '{"name":"bahasapemograman","private":false}'
+6. biasanya urlsshgithub seperti ini -> git@github.com:bagaskarapd/bahasapemograman.git
+git remote add origin git@github.com:bagaskarapd/bahasapemograman.git
+7. push ke github
+git push -u origin main
